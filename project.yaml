@@ -1,0 +1,59 @@
+basic:
+    name: 'SoE |  CEE'
+    environments:
+        production: 'https://cee.stanford.edu'
+        staging: 'https://ceedrupal8-test.sites.stanford.edu'
+        development: ''
+    breakpoints:
+        - 640
+        - 1024
+        - 1200
+    pages:
+        - /
+        - /academics-admission/graduate/phd-and-masters-degree-programs/atmosphereenergy-degrees
+        - /academics-admission/undergraduate-degree-programs
+        - /research-impact/infrastructure
+        - /people/faculty
+        - /our-culture
+        - /get-involved/affiliate-programs
+        - /get-involved/affiliate-programs/stanford-construction-institute
+        - /events
+        - /person/lynn-hildemann
+        - /event/civil-and-environmental-engineering-dept-virtual-graduation-0
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '01:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    isolate: ''
+    delay: 0
+    scroll: false
+    headers:
+        - { value: '', header: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content:
+        - { type: title, selector: '' }
+    login:
+        type: none
+        click_element: false
+        click_element_selector: ''
+        login_url: ''
+        username: ''
+        password: ''
+        username_selector: ''
+        password_selector: ''
+        submit_selector: ''
+        after_login_selector: ''
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: false
