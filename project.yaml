@@ -1,5 +1,5 @@
 basic:
-    name: 'SoE |  CEE'
+    name: 'RELEASE | SoE |  CEE'
     environments:
         production: 'https://cee.stanford.edu'
         staging: 'https://ceedrupal8-test.sites.stanford.edu'
